@@ -1,7 +1,23 @@
+body {
+    margin-top: 100px;
+}
+
 h1 {
     text-align: center;
 }
+
+ul {
+    padding: 0;
+}
+
 ul li {
     border: 1px solid grey;
+    list-style: none;
+    padding: 5px; 
+}
+
+input {
+    border: none;
+    width: 100%;
 
 }
