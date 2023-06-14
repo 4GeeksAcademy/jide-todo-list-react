@@ -4,6 +4,7 @@ import React from "react";
 const Home = () => {
 	return (
 		<div className="container">
+			<h1>My Todos</h1>
 			<ul>
 				<li>Make the bed</li>
 				<li>Walk the dog</li>
