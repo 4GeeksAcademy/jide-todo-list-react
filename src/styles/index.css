@@ -20,5 +20,10 @@ ul li {
 input {
     border: none;
     width: 100%;
+}
 
+li i {
+    float: right;
+    padding-right: 5px;
+    text-align: center;
 }
