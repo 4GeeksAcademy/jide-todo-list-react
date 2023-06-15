@@ -21,9 +21,19 @@ const Home = () => {
 					}}
 					placeholder="What needs to be done?" />
 				</li>
-				{todos.map((t) => (
+				{todos.map((item, index) => (
 					<li>
-						{t} <i class="fa-solid fa-trash-can"></i>
+						{item}{" "} 
+						<i 
+							class="fa-solid fa-trash-can" 
+							onClick={() => 
+								setTodos(
+									todos.filter((t, currentIndex) => 
+										index != currentIndex
+									)
+								)
+							}>
+						</i>
 					</li>
 				))}
 			</ul>
