@@ -11,6 +11,8 @@ ul {
     padding: 0;
     margin-bottom: 0;
     border-top: 1px solid lightblue;
+    margin: auto;
+    width: 50%;
 }
 
 ul li {
@@ -32,4 +34,7 @@ li i {
     padding-right: 5px;
     text-align: center;
 }
-
+ .tasks {
+    margin: auto;
+    width: 50%;
+ }
