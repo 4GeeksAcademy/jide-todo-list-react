@@ -13,7 +13,7 @@ const Home = () => {
 					type="text" 
 					onChange={(e) => setInputValue(e.target.value)}
 					value={inputValue}
-					onKeyPress={(e) => {
+					onKeyDown={(e) => {
 						if (e.key === "Enter") {
 							setTodos(todos.concat(inputValue));
 							setInputValue("");
@@ -23,7 +23,7 @@ const Home = () => {
 				</li>
 				{todos.map((t) => (
 					<li>
-						Make the bed <i class="fa-solid fa-trash-can"></i>
+						{t} <i class="fa-solid fa-trash-can"></i>
 					</li>
 				))}
 			</ul>
