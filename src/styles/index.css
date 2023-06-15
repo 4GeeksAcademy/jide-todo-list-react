@@ -4,17 +4,22 @@ body {
 
 h1 {
     text-align: center;
+    color: lightblue;
 }
 
 ul {
     padding: 0;
     margin-bottom: 0;
+    border-top: 1px solid lightblue;
 }
 
 ul li {
-    border: 1px solid grey;
+    border-bottom: 1px solid lightblue;
+    border-right: 1px solid lightblue;
+    border-left: 1px solid lightblue;
     list-style: none;
     padding: 5px; 
+    border-radius: 2px;
 }
 
 input {
@@ -27,3 +32,4 @@ li i {
     padding-right: 5px;
     text-align: center;
 }
+
